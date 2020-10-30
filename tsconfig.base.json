@@ -16,7 +16,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@sentia-chat/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@sentia-chat/models": ["libs/models/src/index.ts"],
+      "@sentia-chat/utils": ["libs/utils/src/index.ts"],
+      "@sentia-chat/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
